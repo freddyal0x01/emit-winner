@@ -13,7 +13,7 @@ async function main() {
   
   const win = await Win.deploy(CONTRACT_ADDR);
 
-  await win.win()
+  await win.win();
 
   console.log(
     `Contract deployed from ${win.address} & emitting an event over to ${CONTRACT_ADDR}`
